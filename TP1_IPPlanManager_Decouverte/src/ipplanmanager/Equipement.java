@@ -1,15 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ipplanmanager;
-
 /**
  *
- * @author doly Nyangou
+ * @author WORLD TECH STORE
  */
-class Equipement { 
-    String nom; 
+public class Equipement {
+   String nom; 
     String type; 
     InterfaceReseau interfacePrincipale; 
  
@@ -27,4 +22,3 @@ class Equipement {
         } 
     } 
 } 
-
