@@ -21,4 +21,5 @@ public class Equipement {
             System.out.println("Aucune interface réseau configurée."); 
         } 
     } 
+    //doly
 } 

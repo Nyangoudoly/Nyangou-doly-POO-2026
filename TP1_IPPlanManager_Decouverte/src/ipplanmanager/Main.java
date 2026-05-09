@@ -65,7 +65,7 @@ System.out.println("\nNouveaux objets ajoutés ");
 reseauSecondaire.afficher();
 mySwitch.afficher();
 apWifi.afficher();
-client2.afficher();
+client2.afficher(); //envoi dt tp
  
     }
 } 
