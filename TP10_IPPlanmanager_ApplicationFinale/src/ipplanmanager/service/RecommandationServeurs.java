@@ -1,0 +1,23 @@
+
+package ipplanmanager.service;
+import ipplanmanager.model.Recommandation;
+import ipplanmanager.model.VLAN;
+
+/**
+ *
+ * @author doly
+ */
+public class RecommandationServeurs implements RegleRecommandation {
+    @Override
+    
+    public Recommandation analyser(VLAN vlan) {
+        if (vlan.getNom().toUpperCase().contains("SERVEUR")) {
+            return new Recommandation(
+                    "Protection du VLAN Serveurs",
+                    "ÉLEVÉE",
+                    "Le VLAN " + vlan.getNom() + " doit être protégé par des ACL et surveillé en priorité."
+            );
+        }
+        return null;
+    }  
+}
